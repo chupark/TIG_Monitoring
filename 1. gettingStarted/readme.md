@@ -37,3 +37,5 @@ wget https://dl.grafana.com/oss/release/grafana_5.4.2_amd64.deb
 sudo apt-get install -y adduser libfontconfig
 sudo dpkg -i grafana_5.4.2_amd64.deb
 ````
+
+[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) Video Label
