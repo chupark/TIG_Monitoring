@@ -18,6 +18,7 @@ InfluxDB는 Telegraf 에이전트로 수집하는 데이터를 저장하기 위�
 wget https://dl.influxdata.com/influxdb/releases/influxdb_1.7.3_amd64.deb
 sudo dpkg -i influxdb_1.7.3_amd64.deb
 ````
+<img src= 'https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_01_24_10_11_55_661.gif' />
 
 ## 2. Telegraf
 Telegraf는 TICK Stack의 일부이며, 메트릭을 수집하고 보고하는 플러그인 기반 서버 에이전트 입니다. Telegraf는 Docker 같은 컨테이너 혹은 시스템에서 직접 다양한 메트릭, 이벤트 및 로그를 찾으며, 타사 API에서 메트릭을 가져올 수 있는 다양한 <a href='https://github.com/influxdata/telegraf/tree/master/plugins/inputs'>input 플러그인</a>을 제공합니다. 또한 InfluxDB, Kafka등 다양한 <a href='https://github.com/influxdata/telegraf/tree/master/plugins/outputs'>output 플러그인</a>을 가지고 있습니다.
@@ -27,6 +28,7 @@ Telegraf는 TICK Stack의 일부이며, 메트릭을 수집하고 보고하는 �
 wget https://dl.influxdata.com/telegraf/releases/telegraf_1.9.3-1_amd64.deb
 sudo dpkg -i telegraf_1.9.3-1_amd64.deb
 ````
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_01_24_10_14_07_746.gif' />
 
 ## 3. Grafana
 Grafana는 DBMS에 저장된 메트릭을 조회하고, 시각화하고, 경고하고, 이해할 수 있게 해줍니다. 대시보드를 꾸미기 위한 다양한 플러그인과 여러 기능등을 제공합니다.
@@ -37,4 +39,4 @@ wget https://dl.grafana.com/oss/release/grafana_5.4.2_amd64.deb
 sudo apt-get install -y adduser libfontconfig
 sudo dpkg -i grafana_5.4.2_amd64.deb
 ````
-
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_01_24_10_18_23_912.gif' />
