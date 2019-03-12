@@ -49,7 +49,11 @@ sudo dpkg -i grafana_5.4.2_amd64.deb
 ### 3.2. Grafana 접속
 Grafana에 접속하기 위해선 3000포트가 열려있어야 합니다. http://서버ip:3000 에 접속하여 로그인 합니다.
 초기 계정 정보는 id/pw : admin/admin 입니다.
-
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/grafana_login1.png'/>
+<br/>
+<br/>
+안내에 따라 비밀번호를 변경 후 로그인 합니다.
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/grafana_login2.png'/>
 
 ### 3.3. 데이터 소스 연결
 Grafana 대시보드에 그래프를 그리기 위해 데이터 소스 연결이 필요합니다. InfluxDB를 사용하므로 InfluxDB 데이터소스 연결을 필요로 합니다.
