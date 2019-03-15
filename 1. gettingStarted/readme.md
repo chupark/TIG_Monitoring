@@ -48,7 +48,7 @@ sudo dpkg -i grafana_5.4.2_amd64.deb
 
 ### 3.2. Grafana 접속
 Grafana에 접속하기 위해선 3000포트가 열려있어야 합니다. http://서버ip:3000 에 접속하여 로그인 합니다.
-초기 계정 정보는 id/pw : admin/admin 입니다.
+초기 계정 정보는 id/pw : admin/admin 입니다.<br/>
 <img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/grafana_login1.png'/>
 <br/>
 <br/>
@@ -56,6 +56,49 @@ Grafana에 접속하기 위해선 3000포트가 열려있어야 합니다. http:
 <img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/grafana_login2.png'/>
 
 ### 3.3. 데이터 소스 연결
-Grafana 대시보드에 그래프를 그리기 위해 데이터 소스 연결이 필요합니다. InfluxDB를 사용하므로 InfluxDB 데이터소스 연결을 필요로 합니다.
+Grafana 대시보드에 그래프를 그리기 위해 데이터 소스 연결이 필요합니다. InfluxDB를 사용하므로 InfluxDB 데이터소스 연결을 필요로 합니다. <br/>
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_03_15_14_58_30_259.gif'/>
+<br/>
+<br/>
 
+### 3.4. 대시보드 추가
+그래프를 그릴 대시보드를 추가합니다. 대시보드의 디렉터리를 만들고, 이름을 설정할 수 있습니다. <br/>
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_03_15_14_59_32_542.gif'/>
+<br/>
+<br/>
 
+### 3.5. 그래프를 추가하여 이름 변경
+대시보드에 그래프를 추가하여 이름을 원하는대로 변경할 수 있습니다. 아래 그림에선 그래프의 이름을 CPU로 설정 합니다. <br/>
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_03_15_15_00_15_623.gif'/>
+<br/>
+<br/>
+
+### 3.6. 데이터 쿼리
+#### 3.6.1. 쿼리 작성
+그래프에서 사용할 데이터 소스 (InfluxDB-Test)를 선택 후 쿼리를 작성합니다. <br/>
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_03_15_15_00_42_779.gif'/>
+<br/>
+<br/>
+
+#### 3.6.2. 같은 그래프에 새로운 쿼리 작성
+Add Query 버튼을 클릭하여 여러개의 쿼리를 추가하여 그래프를 만들 수 있습니다.<br/>
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_03_15_15_02_27_396.gif'/>
+<br/>
+<br/>
+
+### 3.7. 그래프 꾸미기
+#### 3.7.1. 그래프 y축 데이터 단위 설정
+Unit을 변경하여 Y축에 나타내는 데이터위 단위를 설정할 수 있습니다. <br/>
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_03_15_15_03_31_56.gif' />
+<br/>
+<br/>
+
+#### 3.7.2. 그래프에 데이터 값 표시
+Legend 탭에서 그래프에 데이터를 표시할 수 있습니다. <br/>
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_03_15_15_04_06_762.gif' />
+<br/>
+<br/>
+
+### 3.8. 데이터 새로고침 주기 설정 및 저장
+데이터 새로고침 주기와 현재 설정을 저장합니다. 저장시 바뀐 내용을 입력할 수 있습니다.<br/>
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/%EB%85%B9%ED%99%94_2019_03_15_15_05_00_620.gif' />
