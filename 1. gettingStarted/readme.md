@@ -60,15 +60,18 @@ Grafana 대시보드에 그래프를 그리기 위해 데이터 소스 연결이
 
 #### 3.3.1. 데이터 소스 선택
 로그인 후 아래 그림과 같이 데이터소스 추가를 선택합니다.
+
 <img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/add_datasource1.png'/>
 <br/>
 <br/>
 아래 그림에서 InfluxDB를 선택합니다.
+
 <img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/add_datasource2.png'/>
 <br/>
 <br/>
 ### 3.3.2. 데이터 소스 상세 작성
 데이터소스의 이름을 정합니다.
+
 <img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/add_datasource3.png'/>
 <br/>
 <br/>
