@@ -57,3 +57,29 @@ Grafana에 접속하기 위해선 3000포트가 열려있어야 합니다. http:
 
 ### 3.3. 데이터 소스 연결
 Grafana 대시보드에 그래프를 그리기 위해 데이터 소스 연결이 필요합니다. InfluxDB를 사용하므로 InfluxDB 데이터소스 연결을 필요로 합니다.
+
+#### 3.3.1. 데이터 소스 선택
+로그인 후 아래 그림과 같이 데이터소스 추가를 선택합니다.
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/add_datasource1.png'/>
+<br/>
+<br/>
+아래 그림에서 InfluxDB를 선택합니다.
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/add_datasource2.png'/>
+<br/>
+<br/>
+### 3.3.2. 데이터 소스 상세 작성
+데이터소스의 이름을 정합니다.
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/add_datasource3.png'/>
+<br/>
+<br/>
+데이터 접근 방법을 선택합니다. 기본값은 Server입니다. 
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/add_datasource4.png'/>
+<br/>
+<br/>
+데이터베이스 인증 방법을 선택합니다. InfluxDB의 인증 설정을 하지 않았으므로 그냥 넘어갑니다.
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/add_datasource5.png'/>
+<br/>
+<br/>
+Save & Test 를 클릭하여 데이터소스 연결 테스트를 진행합니다.
+<img src='https://github.com/chupark/TIG_Monitoring/blob/master/1.%20gettingStarted/img/add_datasource6.png'/>
+
